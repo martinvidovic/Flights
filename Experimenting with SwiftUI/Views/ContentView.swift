@@ -10,14 +10,29 @@ import SwiftUI
 import Combine
 
 struct ContentView: View {
-    @ObservedObject var locationManager = LocationManager()
+    @ObservedObject var viewModel: DestinationViewModel
+    
     var body: some View {
-        Text("Hello World")
+        NavigationView {
+            List(viewModel.destinations) { destination in
+                NavigationLink(destination: DetailView(destination: destination)) {
+                    Cell(destination: destination, viewModel: CellViewModel(destination: destination))
+                }
+                .padding(.trailing, -32.0)
+                .padding(.leading, -16.0)
+            }
+            .alert(isPresented: $viewModel.isErrorShown, content: { () -> Alert in
+                Alert(title: Text("Error"), message: Text(viewModel.errorMessage))
+            })
+            .navigationBarTitle(Text("Destinations"))
+        }
+        .onAppear(perform: { self.viewModel.apply(.onAppear) })
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+// I am not using preview, because I have macOs 10.14 and it is not available.
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ContentView()
+//    }
+//}

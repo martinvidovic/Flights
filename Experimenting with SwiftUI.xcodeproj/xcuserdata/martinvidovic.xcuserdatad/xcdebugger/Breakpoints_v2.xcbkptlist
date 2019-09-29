@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2109FA9B-6B05-4F61-93BC-ACEB53A42226"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "init(apiService:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916 - ab354b4c2b9826f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 0 of Experimenting_with_SwiftUI.DestinationViewModel.init(apiService: Experimenting_with_SwiftUI.APIServiceType, locationManager: Experimenting_with_SwiftUI.LocationManager1, imageLoader: Experimenting_with_SwiftUI.ImageLoader) -&gt; Experimenting_with_SwiftUI.DestinationViewModel"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/ViewModels/DestinationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916 - 8e3744f7457a6873"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 1 of Experimenting_with_SwiftUI.DestinationViewModel.init(apiService: Experimenting_with_SwiftUI.APIServiceType, locationManager: Experimenting_with_SwiftUI.LocationManager1, imageLoader: Experimenting_with_SwiftUI.ImageLoader) -&gt; Experimenting_with_SwiftUI.DestinationViewModel"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/ViewModels/DestinationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916 - 6539441a7ed599f0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "default argument 2 of Experimenting_with_SwiftUI.DestinationViewModel.init(apiService: Experimenting_with_SwiftUI.APIServiceType, locationManager: Experimenting_with_SwiftUI.LocationManager1, imageLoader: Experimenting_with_SwiftUI.ImageLoader) -&gt; Experimenting_with_SwiftUI.DestinationViewModel"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/ViewModels/DestinationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "11">
+               </Location>
+               <Location
+                  uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916 - 2c2a648c4e21495b"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Experimenting_with_SwiftUI.DestinationViewModel.__allocating_init(apiService: Experimenting_with_SwiftUI.APIServiceType, locationManager: Experimenting_with_SwiftUI.LocationManager1, imageLoader: Experimenting_with_SwiftUI.ImageLoader) -&gt; Experimenting_with_SwiftUI.DestinationViewModel"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/ViewModels/DestinationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  uuid = "B69353D9-650B-48E7-8B96-CA9DF25DA916 - 85cb9d7b9c374123"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Experimenting_with_SwiftUI.DestinationViewModel.init(apiService: Experimenting_with_SwiftUI.APIServiceType, locationManager: Experimenting_with_SwiftUI.LocationManager1, imageLoader: Experimenting_with_SwiftUI.ImageLoader) -&gt; Experimenting_with_SwiftUI.DestinationViewModel"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/ViewModels/DestinationViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "379">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "29035EB2-F269-4AE5-9A94-990C4EAC6CBF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "bindInputs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7E15B0AE-C9D9-4258-8EFB-987F50E779A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "19E2F350-CD5B-4DE5-9FDE-8B01B270F295"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "bindOutputs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "31D12146-96DC-464E-8B3F-CB5E6F01AC19"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/Services/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "APIServiceError"
+            landmarkType = "13">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "50B7391C-7807-4614-BC2B-2C7C7294D827"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "bindInputs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "587F3F49-0B74-4D16-A8FD-B7E3B8A10C94"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/Services/ImageLoader.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "587F3F49-0B74-4D16-A8FD-B7E3B8A10C94 - 58c7503d18063fde"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Experimenting_with_SwiftUI.ImageLoader.load(name: Swift.String) -&gt; ()"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/Services/ImageLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1392">
+               </Location>
+               <Location
+                  uuid = "587F3F49-0B74-4D16-A8FD-B7E3B8A10C94 - aa809f1b9e14e2bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Experimenting_with_SwiftUI.ImageLoader.load(name: Swift.String) -&gt; ()"
+                  moduleName = "Experimenting with SwiftUI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/martinvidovic/Desktop/Xcode/SwiftUI/Experimenting%20with%20SwiftUI/Experimenting%20with%20SwiftUI/Services/ImageLoader.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0A4C11C-41E7-4494-9F14-315DD8E61043"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "bindOutputs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0CAAD6B8-9C92-410E-B952-6CE3DAACD58E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/CellViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "init(destination:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5EC20E87-E803-4B81-AD8B-B7588978F65C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/Services/ApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "response(from:dateFrom:dateTo:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C39CB04C-B77C-40DF-A518-10069BE7F2B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Experimenting with SwiftUI/ViewModels/DestinationViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "bindInputs()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

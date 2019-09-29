@@ -9,13 +9,40 @@
 import SwiftUI
 
 struct Cell: View {
+    @State var destination: DestinationDTO
+    @ObservedObject var viewModel: CellViewModel
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        ZStack(alignment: .bottom) {
+            Image(uiImage: viewModel.image)
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .cornerRadius(10)
+            HStack {
+                Text(viewModel.destination.cityFrom)
+                    .padding(5)
+                    .background(Color(red: 25/255, green: 152/255, blue: 171/255))
+                    .cornerRadius(5)
+                    .font(.headline)
+                    .foregroundColor(Color.white)
+                    .offset(x: 5, y: -5)
+                Spacer()
+                Text(viewModel.destination.cityTo)
+                    .padding(5)
+                    .background(Color(red: 25/255, green: 152/255, blue: 171/255))
+                    .cornerRadius(5)
+                    .font(.headline)
+                    .foregroundColor(Color.white)
+                    .offset(x: -5, y: -5)
+            }
+        }
     }
+
 }
 
-struct Cell_Previews: PreviewProvider {
-    static var previews: some View {
-        Cell()
-    }
-}
+// I am not using preview, because I have macOs 10.14 and it is not available.
+//struct Cell_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Cell()
+//    }
+//}

@@ -9,6 +9,7 @@
 import Foundation
 
 struct DestinationDTO: Decodable, Identifiable {
+    // This DTO could contain more information, but for this project I don't need them.
     var id: String
     var countryFrom: CountryDTO
     var countryTo: CountryDTO

@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1906AA23411DD400D17319 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1906A923411DD400D17319 /* CellViewModel.swift */; };
+		EC1906AC2341234500D17319 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1906AB2341234500D17319 /* Cell.swift */; };
+		EC1906B023412B8100D17319 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1906AF23412B8100D17319 /* DetailView.swift */; };
+		EC1AC34B233E957400DFFBE6 /* DestinationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AC34A233E957400DFFBE6 /* DestinationViewModel.swift */; };
+		EC1AC34F233F6C4A00DFFBE6 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AC34E233F6C4A00DFFBE6 /* ApiService.swift */; };
+		EC1AC351233F761900DFFBE6 /* SearchDTORequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1AC350233F761900DFFBE6 /* SearchDTORequest.swift */; };
 		EC8C3CF0233BEC6300AC8D90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3CEF233BEC6300AC8D90 /* AppDelegate.swift */; };
 		EC8C3CF2233BEC6300AC8D90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3CF1233BEC6300AC8D90 /* SceneDelegate.swift */; };
 		EC8C3CF4233BEC6300AC8D90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3CF3233BEC6300AC8D90 /* ContentView.swift */; };
 		EC8C3CF6233BEC6500AC8D90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3CF5233BEC6500AC8D90 /* Assets.xcassets */; };
 		EC8C3CF9233BEC6500AC8D90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3CF8233BEC6500AC8D90 /* Preview Assets.xcassets */; };
 		EC8C3CFC233BEC6500AC8D90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3CFA233BEC6500AC8D90 /* LaunchScreen.storyboard */; };
+		EC8C3D0A233BEF0B00AC8D90 /* DestinationsDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3D09233BEF0B00AC8D90 /* DestinationsDTO.swift */; };
+		EC8C3D10233BEF6500AC8D90 /* CountryDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3D0F233BEF6500AC8D90 /* CountryDTO.swift */; };
+		EC8C3D17233D3A2200AC8D90 /* DestinationDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3D16233D3A2200AC8D90 /* DestinationDTO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EC1906A923411DD400D17319 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
+		EC1906AB2341234500D17319 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		EC1906AF23412B8100D17319 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		EC1AC34A233E957400DFFBE6 /* DestinationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationViewModel.swift; sourceTree = "<group>"; };
+		EC1AC34E233F6C4A00DFFBE6 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		EC1AC350233F761900DFFBE6 /* SearchDTORequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDTORequest.swift; sourceTree = "<group>"; };
 		EC8C3CEC233BEC6300AC8D90 /* Experimenting with SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Experimenting with SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8C3CEF233BEC6300AC8D90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EC8C3CF1233BEC6300AC8D90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,9 @@
 		EC8C3CF8233BEC6500AC8D90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EC8C3CFB233BEC6500AC8D90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC8C3CFD233BEC6600AC8D90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8C3D09233BEF0B00AC8D90 /* DestinationsDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationsDTO.swift; sourceTree = "<group>"; };
+		EC8C3D0F233BEF6500AC8D90 /* CountryDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDTO.swift; sourceTree = "<group>"; };
+		EC8C3D16233D3A2200AC8D90 /* DestinationDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationDTO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EC1AC343233E7C6400DFFBE6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3CF3233BEC6300AC8D90 /* ContentView.swift */,
+				EC1906AB2341234500D17319 /* Cell.swift */,
+				EC1906AF23412B8100D17319 /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EC1AC349233E953E00DFFBE6 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EC1AC34A233E957400DFFBE6 /* DestinationViewModel.swift */,
+				EC1906A923411DD400D17319 /* CellViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		EC8C3CE3233BEC6300AC8D90 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +93,12 @@
 		EC8C3CEE233BEC6300AC8D90 /* Experimenting with SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				EC1AC343233E7C6400DFFBE6 /* Views */,
+				EC1AC349233E953E00DFFBE6 /* ViewModels */,
+				EC8C3D08233BEEF600AC8D90 /* DTO */,
+				EC8C3D03233BECAA00AC8D90 /* Services */,
 				EC8C3CEF233BEC6300AC8D90 /* AppDelegate.swift */,
 				EC8C3CF1233BEC6300AC8D90 /* SceneDelegate.swift */,
-				EC8C3CF3233BEC6300AC8D90 /* ContentView.swift */,
 				EC8C3CF5233BEC6500AC8D90 /* Assets.xcassets */,
 				EC8C3CFA233BEC6500AC8D90 /* LaunchScreen.storyboard */,
 				EC8C3CFD233BEC6600AC8D90 /* Info.plist */,
@@ -73,6 +113,25 @@
 				EC8C3CF8233BEC6500AC8D90 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC8C3D03233BECAA00AC8D90 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC1AC34E233F6C4A00DFFBE6 /* ApiService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC8C3D08233BEEF600AC8D90 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3D16233D3A2200AC8D90 /* DestinationDTO.swift */,
+				EC8C3D09233BEF0B00AC8D90 /* DestinationsDTO.swift */,
+				EC8C3D0F233BEF6500AC8D90 /* CountryDTO.swift */,
+				EC1AC350233F761900DFFBE6 /* SearchDTORequest.swift */,
+			);
+			path = DTO;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +205,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1AC34B233E957400DFFBE6 /* DestinationViewModel.swift in Sources */,
 				EC8C3CF0233BEC6300AC8D90 /* AppDelegate.swift in Sources */,
+				EC8C3D10233BEF6500AC8D90 /* CountryDTO.swift in Sources */,
+				EC8C3D17233D3A2200AC8D90 /* DestinationDTO.swift in Sources */,
+				EC1AC351233F761900DFFBE6 /* SearchDTORequest.swift in Sources */,
+				EC1906B023412B8100D17319 /* DetailView.swift in Sources */,
 				EC8C3CF2233BEC6300AC8D90 /* SceneDelegate.swift in Sources */,
+				EC1906AA23411DD400D17319 /* CellViewModel.swift in Sources */,
+				EC8C3D0A233BEF0B00AC8D90 /* DestinationsDTO.swift in Sources */,
 				EC8C3CF4233BEC6300AC8D90 /* ContentView.swift in Sources */,
+				EC1AC34F233F6C4A00DFFBE6 /* ApiService.swift in Sources */,
+				EC1906AC2341234500D17319 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
