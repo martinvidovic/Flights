@@ -7,8 +7,10 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
+    @ObservedObject var locationManager = LocationManager()
     var body: some View {
         Text("Hello World")
     }
