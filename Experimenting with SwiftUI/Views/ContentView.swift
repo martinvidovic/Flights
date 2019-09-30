@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             List(viewModel.destinations) { destination in
                 NavigationLink(destination: DetailView(destination: destination)) {
-                    Cell(destination: destination, viewModel: CellViewModel(destination: destination))
+                    Cell(viewModel: CellViewModel(destination: destination))
                 }
                 .padding(.trailing, -32.0)
                 .padding(.leading, -16.0)

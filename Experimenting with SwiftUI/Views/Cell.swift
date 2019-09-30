@@ -9,7 +9,6 @@
 import SwiftUI
 
 struct Cell: View {
-    @State var destination: DestinationDTO
     @ObservedObject var viewModel: CellViewModel
 
     var body: some View {

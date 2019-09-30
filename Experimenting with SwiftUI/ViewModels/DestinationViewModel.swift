@@ -21,7 +21,6 @@ final class DestinationViewModel: ObservableObject {
     private let apiService: APIServiceType
     private var cancellables: [AnyCancellable] = []
 
-
     @Published private(set) var destinations: [DestinationDTO] = []
     @Published private var destinationImages: [UIImage] = []
     @Published var isErrorShown = false
@@ -48,7 +47,7 @@ final class DestinationViewModel: ObservableObject {
         let request = SearchDTORequest()
 
         let responsePublisher = onAppearSubject
-            .flatMap { [apiService] _ in
+            .flatMap { [apiService, unowned self] _ in
                 apiService.response(
                     from: request,
                     dateFrom: self.convertDateFormater(Date()),
